@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* MEDIA QUERY LAPTOP AND DESKTOP */
+@media (min-width: 992px) {
+    #Chicken{
+        background-color: rgb(153,153,153);
+        padding: 0px 0px 20px 10px;
+        margin: 40px;
+        width: 25%;
+        float: left;
+
+    }
+    
+    .pink {
+        background-color: pink;
+        text-align: right;
+        border: 2px solid black;
+        padding-right: 30px;
+        margin-left: 180px;
+    }
+    
+    #Beef {
+        background-color: rgb(153,153,153);
+        padding: 0px 0px 20px 10px;
+        margin: 40px;
+        width: 25%;
+        float: left;
+
+    }
+    
+    .red {
+        background-color: red;
+        color: white;
+        text-align: right;
+        border: 2px solid black;
+        padding-right: 40px;
+        margin-left: 200px;
+    }
+    
+    #Sushi {
+        background-color: rgb(153,153,153);
+        padding: 0px 0px 20px 10px;
+        margin: 40px;
+        width: 25%;
+        float: left;
+    }
+    
+    .gold {
+        background-color: rgb(229, 209, 152);
+        color: black;
+        text-align: right;
+        border: 2px solid black;
+        padding-right: 40px;
+        margin-left: 200px;
+    }    
+}
+
+/* MEDIA QUERY TABLET */
+@media (min-width: 768px) and (max-width: 991px) {
+    #foods {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Chicken{
+        background-color: rgb(153,153,153);
+        padding: 0px 0px 20px 10px;
+        margin: 40px;
+        width: 45%;
+    }
+    
+    .pink {
+        background-color: pink;
+        text-align: right;
+        border: 2px solid black;
+        padding-right: 30px;
+        margin-left: 200px;
+    }
+    
+    #Beef {
+        background-color: rgb(153,153,153);
+        padding: 0px 0px 20px 10px;
+        margin: 40px;
+        width: 45%;
+    }
+    
+    .red {
+        background-color: red;
+        color: white;
+        text-align: right;
+        border: 2px solid black;
+        padding-right: 40px;
+        margin-left: 200px;
+    }
+    
+    #Sushi {
+        background-color: rgb(153,153,153);
+        padding: 0px 0px 30px 10px;
+        margin: 40px;
+        width: 90%;
+    }
+    
+    .gold {
+        background-color: rgb(229, 209, 152);
+        color: black;
+        text-align: right;
+        border: 2px solid black;
+        padding-right: 80px;
+        margin-left: 500px;
+    } 
+}
+
+/* MEDIA QUERY PHONE */
+@media screen and (max-width: 768px) {
+    #Chicken{
+        background-color: rgb(153,153,153);
+        padding: 0px 0px 20px 10px;
+        margin: 20px;
+        width: 90%;
+    }
+    
+    .pink {
+        background-color: pink;
+        text-align: right;
+        border: 2px solid black;
+        padding-right: 30px;
+        margin-left: 200px;
+    }
+    
+    #Beef {
+        background-color: rgb(153,153,153);
+        padding: 0px 0px 20px 10px;
+        margin: 20px;
+        width: 90%;
+    }
+    
+    .red {
+        background-color: red;
+        color: white;
+        text-align: right;
+        border: 2px solid black;
+        padding-right: 40px;
+        margin-left: 200px;
+    }
+    
+    #Sushi {
+        background-color: rgb(153,153,153);
+        padding: 0px 0px 20px 10px;
+        margin: 20px;
+        width: 90%;
+    }
+    
+    .gold {
+        background-color: rgb(229, 209, 152);
+        color: black;
+        text-align: right;
+        border: 2px solid black;
+        padding-right: 80px;
+        margin-left: 200px;
+    } 
+}
